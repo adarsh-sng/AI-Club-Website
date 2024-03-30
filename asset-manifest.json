@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/AI-Club-Website/static/css/main.532060df.css",
+    "main.js": "/AI-Club-Website/static/js/main.0e11e3e3.js",
+    "static/js/453.229be043.chunk.js": "/AI-Club-Website/static/js/453.229be043.chunk.js",
+    "static/media/colors2.gif": "/AI-Club-Website/static/media/colors2.65361202cbb40862c753.gif",
+    "static/media/colors1.gif": "/AI-Club-Website/static/media/colors1.918f7be63edb0741250d.gif",
+    "static/media/AI-Image.jpg": "/AI-Club-Website/static/media/AI-Image.fda174504e37f36b7b09.jpg",
+    "static/media/club_logo - icon.png": "/AI-Club-Website/static/media/club_logo - icon.56897dfbc42e8749fb69.png",
+    "static/media/instagram.png": "/AI-Club-Website/static/media/instagram.877a5aa30c3d558293dc.png",
+    "static/media/github.png": "/AI-Club-Website/static/media/github.5d2e386a5982641ab40e.png",
+    "static/media/linkedin.png": "/AI-Club-Website/static/media/linkedin.7dd0e3d5ec3ad2d69615.png",
+    "static/media/Event3.png": "/AI-Club-Website/static/media/Event3.6ad40fd63a16bd594e12.png",
+    "static/media/Event2.png": "/AI-Club-Website/static/media/Event2.78f29cf572c5e9cfce11.png",
+    "static/media/Event4.png": "/AI-Club-Website/static/media/Event4.5e4a2d1c8d73cf29193f.png",
+    "static/media/Event1.png": "/AI-Club-Website/static/media/Event1.04db5bbcff542316a2fb.png",
+    "index.html": "/AI-Club-Website/index.html",
+    "main.532060df.css.map": "/AI-Club-Website/static/css/main.532060df.css.map",
+    "main.0e11e3e3.js.map": "/AI-Club-Website/static/js/main.0e11e3e3.js.map",
+    "453.229be043.chunk.js.map": "/AI-Club-Website/static/js/453.229be043.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.532060df.css",
+    "static/js/main.0e11e3e3.js"
+  ]
+}
