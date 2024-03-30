@@ -1,0 +1,116 @@
+.footer {
+  margin-top: 1.33vh;
+  padding: 2.67vh 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  flex: 1;
+  padding: 0 1.33vw;
+}
+
+.logoSection,
+.useful-links,
+.My-Links {
+  text-align: center;
+}
+
+.club-name {
+  background-image: url(../assets/colors2.gif);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  background-size: 100% 100%;
+}
+
+.links-heading {
+  margin-top: 1.33vh;
+  margin-bottom: 0.67vh;
+  font-size: 1.7vw;
+  background-image: url(../assets/colors1.gif);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  background-size: 100% 100%;
+}
+
+.footer-link {
+  font-size: large;
+  color: rgb(182, 17, 146);
+  font-weight: 400;
+  transition: color 0.3s ease-in-out; 
+}
+
+.footer-link:hover {
+  color: #ff00ff; 
+}
+
+.find-me {
+  margin-top: 0.67vh;
+  background-image: url(../assets/colors2.gif);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  font-size: large;
+  background-size: 100% 100%;
+}
+
+.social-icons {
+  margin-top: 0.67vh;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  margin: 0 1.33vw;
+  text-decoration: none;
+}
+
+.social-icons img {
+  width: 2.67vw;
+  height: 2.67vw;
+  transition: transform 0.3s ease-in-out; 
+}
+
+.social-icons img:hover {
+  transform: scale(1.3); 
+}
+
+.useful-links a {
+  display: block;
+  margin-bottom: 0.67vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column {
+    padding: 0;
+    margin-bottom: 1.33vh; 
+  }
+
+  .useful-links {
+    margin-top: 1.33vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .social-icons {
+    margin-top: 1.33vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .useful-links a {
+    margin: 0 1.33vw; 
+  }
+}

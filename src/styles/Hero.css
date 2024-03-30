@@ -1,0 +1,79 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.67vw;
+  margin-top: 3.33vh;
+}
+
+.Heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 4.67vw;
+  font-weight: 1000;
+  background-image: url(https://media2.giphy.com/media/HkEDr0jVekaZO/giphy.gif?cid=790b761…&ct=g&rid=giphy.gif);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-top: 0px;
+}
+
+.image {
+  max-width: 50%;
+  height: auto;
+  border-radius: 20px;
+  margin-top: 1.95vh;
+  margin-right: 2.67vw;
+  transition: transform 0.3s ease;
+  transform-origin: right;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+
+.button {
+  font-family: "Poppins", sans-serif;
+  font-size: 2vw;
+  font-weight: bolder;
+  background-color: #1b5ab2;
+  color: #100e0e;
+  padding: 1.67vh 2.67vw;
+  border: none;
+  border-radius: 1.33vw;
+  align-self: flex-start;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  margin-top: 1.33vh;
+  margin-left: 12vw;
+}
+
+.button:hover {
+  background-color: #cd0dd3;
+}
+
+@media only screen and (max-width: 768px) {
+  .Container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-container {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .image {
+    order: -1; 
+    margin-top: 3.33vh; 
+    margin-right: 0;
+  }
+  .button{
+    align-self: center;
+    margin-left: auto; 
+    margin-right: auto;
+  }
+}
